@@ -88,6 +88,12 @@ a:hover{
     color: var(--Dark_Grey);
 }
 
+input:hover{
+    cursor: pointer;
+    background-color: var(--Green);
+    color: var(--Dark_Grey);
+}
+
 input{
     font-size: 14px;
     color: var(--White);
