@@ -82,7 +82,7 @@ a{
     font-weight: 600;
 }
 
-input:hover{
+a:hover{
     cursor: pointer;
     background-color: var(--Green);
     color: var(--Dark_Grey);
