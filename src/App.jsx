@@ -26,7 +26,7 @@ const App = () => {
             <div className="main">
                 <div className="personal-info">
                     <span className='image'>
-                        <img src={photo} alt='Foto de perfil' />
+                        <img src="https://vercel.com/api/www/avatar/xupUdYZDKMnY1JQPHKbbKD4U?&s=160" alt='Foto de perfil' />
                     </span>
                     <Nome>{`Pedro Lucas`}</Nome>
                     <Location>{`Maceió, AL`}</Location>
