@@ -82,7 +82,7 @@ a{
     font-weight: 600;
 }
 
-a:hover{
+.button:hover{
     cursor: pointer;
     background-color: var(--Green);
     color: var(--Dark_Grey);
