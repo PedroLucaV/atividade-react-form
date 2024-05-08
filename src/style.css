@@ -73,12 +73,6 @@ a{
     text-align: center;
 }
 
-a:hover{
-    background-color: var(--Green);
-    color: var(--Dark_Grey);
-    cursor: pointer;
-}
-
 .personal-info {
     margin-bottom: 50px;
     text-align: center;
