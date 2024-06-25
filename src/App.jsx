@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import './style.css'
-import photo from './assets/images/avatar-pedro.jpg'
 
 const Nome = (props) => {
     return (
@@ -26,7 +25,7 @@ const App = () => {
             <div className="main">
                 <div className="personal-info">
                     <span className='image'>
-                        <img src="https://vercel.com/api/www/avatar/xupUdYZDKMnY1JQPHKbbKD4U?&s=160" alt='Foto de perfil' />
+                        <img src="https://avatars.githubusercontent.com/u/133527072?v=4" alt='Foto de perfil' />
                     </span>
                     <Nome>{`Pedro Lucas`}</Nome>
                     <Location>{`Maceió, AL`}</Location>
@@ -34,9 +33,7 @@ const App = () => {
                 </div>
                 <form action="" className='form'>
                     <a href="https://github.com/PedroLucaV" className='button'><input className='button' type="button" value="Github"/></a>
-                    <a href="https://www.frontendmentor.io/profile/PedroLucaV" className='button'><input className='button' type="button" value="Frontend Mentor" /></a>
                     <a href="https://www.linkedin.com/in/pedro-lucas-09b504301/" className='button'><input className='button' type="button" value="Linkedin" /></a>
-                    <a href="https://twitter.com/PedroLu98465537" className='button'><input className='button' type="button" value="Twitter" /></a>
                     <a href="https://www.instagram.com/pl_allwisdom?igsh=MXM3eHBuZDQ2dXdlaw==" className='button'><input className='button' type="button" value="Instagram" /></a>
                 </form>
             </div>
